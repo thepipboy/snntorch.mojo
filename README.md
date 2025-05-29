@@ -1,5 +1,4 @@
-# snntorch.mojo
-Human Brain costs 20W power per hour(snntorch is Spiking Neural Network)Fourier Transformation\
+
 要实现基于脉冲神经网络（SNN）的大型语言模型（LLM）的“零响应序列”（即高效跳过低重要性词符生成），需结合动态稀疏注意力、脉冲门控机制和神经形态硬件优化。以下是使用 `snntorch` 的分步实现方案，核心思路是通过脉冲发放率动态跳过冗余计算，显著提升推理效率。
 
 ---
